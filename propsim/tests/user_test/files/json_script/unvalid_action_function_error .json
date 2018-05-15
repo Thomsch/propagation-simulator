@@ -1,0 +1,9 @@
+{
+    "test1": {
+        "with" : ["Montagne"],
+        "action" : [
+            ["is_true", "True"],
+            ["invalid_function", "nothing !"]
+        ]
+    }
+}

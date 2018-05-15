@@ -1,0 +1,9 @@
+{
+    "test1": {
+        "with" : ["Zone_Risque"],
+        "action" : [
+            [],
+            ["eval", "print 'nothing !'"]
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+/**
+ * Configurations du mode "user" de la génération de la "Map"
+ */
+
+{
+    "default_terrain" : {
+        "terrain" : "Zone_Risque"
+    },
+    "special_areas" : [
+        {
+            "type" : "Rectangle",
+            "terrain" : "Montagne",
+            "dimensions" : [5, 5, 50, 50]
+        },
+        {
+            "type" : "Rectangle",
+            "terrain" : "Zone_Sure",
+            "dimensions" : [100, 100, 50, 50]
+        },
+                {
+            "type" : "Rectangle",
+            "terrain" : "Zone_Sure",
+            "dimensions" : [0, 100, 50, 50]
+        },
+        {
+            "type" : "Ellipse",
+            "terrain" : "Montagne",
+            "dimensions" : [150, 150, 30, 20]
+        }
+    ]
+}
+ 

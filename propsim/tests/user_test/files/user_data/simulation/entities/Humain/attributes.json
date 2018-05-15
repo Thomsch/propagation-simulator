@@ -1,0 +1,16 @@
+{
+    "_name" : "Humain",
+    "_plural_name" : "Humains",
+    "_color" : "#1200FF", // bleu
+    "color_infected" : "#00FCFF", // cyan
+
+    "_labels" : {
+        "Humain sain" : "#1200FF", // bleu
+        "Humain infecté" : "#00FCFF" // cyan
+    },
+
+    // Paramètres pour le script de déplacement
+    "direction" : [0, 1],
+    "speed_progress" : [1, 1, 3, 2, 2, 1, 1],
+    "speed_id" : 2
+}

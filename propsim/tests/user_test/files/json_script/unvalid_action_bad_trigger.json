@@ -1,0 +1,6 @@
+{
+    "test1": {
+        "with" : ["Montagne"],
+        "action" : "invalid_trigger"
+    }
+}

@@ -1,0 +1,14 @@
+"${action_name}" : {
+        "with" : [], //TODO Add some terrains for the action to occur
+        "action" : [
+            //TODO Set an activation condition
+            [
+                "True"
+            ],
+            //TODO Replace "pass" by instruction(s) to execute
+            //     when action is performed
+            [
+                "pass"
+            ]
+        ]
+    }

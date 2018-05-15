@@ -1,0 +1,8 @@
+{
+    "_create_entities" : {
+        "action" : [
+            ["True"],
+            ["print 'not admitted !'"]
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "_create_entities": {
+        "action" : [
+            "print 'hello world'"
+        ]
+    }
+}

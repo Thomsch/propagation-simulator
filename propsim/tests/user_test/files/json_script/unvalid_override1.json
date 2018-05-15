@@ -1,0 +1,7 @@
+{
+    "_not_admitted" : {
+        "action" : [
+            "print 'not admitted !'"
+        ]
+    }
+}

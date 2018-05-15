@@ -1,0 +1,24 @@
+{
+    "normal_move": {
+        "with" : ["Zone_Risque", "Zone_Sure"],
+        "action" : "/function_pack/mvt_entity"
+    },
+
+    /**
+     * ==================
+     * SURCHARGES
+     * ==================
+     */
+    "_init_entity": {
+        "action" : [
+            "init_pos_humain",
+            [ ["Zone_Risque", "Zone_Sure"] ]
+        ]
+    },
+    "_create_entities": {
+        "action":[
+            "creation_instance_num",
+            [200]             // Nombre d'entité à créer
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "_init_entity" : {
+        "action" : [
+            "print 'Hello _init_entity !'"
+        ]
+    },
+    "_create_entities": {
+        "action" : [
+            "print 'Hello _create_entity !'"
+        ]
+    }
+}

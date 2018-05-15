@@ -1,0 +1,4 @@
+"${action_name}" : {
+        "with" : [], //TODO Add some terrains for the action to occur
+        "action" : "${action_name}"
+    }

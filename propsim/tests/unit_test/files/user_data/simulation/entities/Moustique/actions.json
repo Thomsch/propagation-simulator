@@ -1,0 +1,18 @@
+{
+    "normal_move": {
+        "with" : ["Zone_Risque"],
+        "action" : "/function_pack/mvt_entity"
+    },
+    "_init_entity": {
+        "action" : [
+            "init_pos_moustique",
+            [["Zone_Risque"]]
+        ]
+    },
+    "_create_entities": {
+        "action":[
+            "creation_instance_num",
+            [200]
+        ]
+    }
+}

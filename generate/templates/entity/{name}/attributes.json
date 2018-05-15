@@ -1,0 +1,13 @@
+{
+    "_name" : "$entity_name",
+    "_plural_name" : "${entity_name}s"$add_comma
+
+    //, "_color" : "#FFFFFF"
+    //,"_labels" : {"$entity_name (custom label)":"#FFFFFF"}
+
+    //
+    // Attributes
+    //
+
+    $attr
+}

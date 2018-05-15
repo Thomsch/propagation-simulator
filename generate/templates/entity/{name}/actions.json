@@ -1,0 +1,16 @@
+{
+    //TODO Uncomment to override initialization
+    // "_init_entity" : {
+    //     "action" : [
+    //         //TODO entities initialization instructions
+    //     ]
+    // },
+
+    // Defines how to create entities
+    "_create_entities": {
+        "action":[
+            "creation_instance_num",
+            [100] // Number of entites to create
+        ]
+    }
+}

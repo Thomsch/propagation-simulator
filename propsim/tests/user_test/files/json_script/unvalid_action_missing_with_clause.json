@@ -1,0 +1,8 @@
+{
+    "test1": {
+        "action" : [
+            ["is_true", "True"],
+            ["eval", "print 'nothing !'"]
+        ]
+    }
+}

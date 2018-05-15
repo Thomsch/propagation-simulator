@@ -1,0 +1,17 @@
+/**
+ * Interaction piquer
+ * ==================
+ * Intervient lorsque un humain et un moustique se recontrent.
+ */
+{
+    "entity1" : "Humain",
+    "entity2" : "Moustique",
+    "interaction" : [
+        [
+            "True"
+        ],
+        [
+            "utils.kill_entity(moustique)"
+        ]
+    ]
+}

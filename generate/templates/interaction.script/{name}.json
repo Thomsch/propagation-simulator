@@ -1,0 +1,5 @@
+{
+	"entity1": "${interaction_entity1}",
+	"entity2": "${interaction_entity2}",
+	"interaction" : "${interaction_name}"
+}

@@ -1,0 +1,14 @@
+/**
+ * Permet de configurer le lancement d'une simulation.
+ */
+{
+    "launch" : "simulation",                    // Le nom de la simulation à lancer
+    "seed" : 3,                                 // Pour garantir la reproductibilté
+    "map_seed" : 2,                             // Seed utilisé pour la génération de map
+    "map_generation" : "alea",                  // alea, perlin ou user
+    "map_size" : [200, 200],                    // Taille de la carte
+    "iterations" : 500,                         // Nombre d'itérations
+    "nb_iterations_before_refresh" : 1,
+    "min_delay_between_refreshes" : 0.0,
+    "interaction_range" : 0                     // Rayon pour déclenchement d'interactions
+}

@@ -1,0 +1,22 @@
+/**
+ * Configurations du mode "user" de la génération de la "Map"
+ */
+
+{
+    "default_terrain" : {
+        "terrain" : "DefaultTerrain"
+    },
+    "special_areas" : [
+        {
+            "type" : "Rectangle",
+            "terrain" : "DefaultTerrain",
+            "dimensions" : [0, 0, 25, 25]
+        },
+        {
+            "type" : "Ellipse",
+            "terrain" : "DefaultTerrain",
+            "dimensions" : [0, 0, 20, 20]
+        }
+    ]
+}
+ 

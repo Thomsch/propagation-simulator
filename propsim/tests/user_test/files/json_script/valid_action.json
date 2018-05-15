@@ -1,0 +1,47 @@
+{
+    "test1": {
+        "with" : ["Montagne"],
+        "action" : "human_mouvement"
+    },
+    "test2": {
+        "with" : [],
+        "action" : "human_mouvement"
+    },
+    "test3": {
+        "with" : ["Montagne", "Zone_Risque"],
+        "action" : "human_mouvement"
+    },
+    "test4": {
+        "with" : ["Montagne"],
+        "action" : [
+            [
+                "/default/functions/is_true",
+                ["True"]
+            ],
+            [
+                "/default/functions/eval",
+                ["print 'nothing in test4!'"]
+            ]
+        ]
+    },
+    "test5": {
+        "with" : [],
+        "action" : [
+            [
+                "is_true",
+                ["True"]
+            ],
+            [
+                "eval",
+                ["print 'nothing in test5 !'"]
+            ]
+        ]
+    },
+    "test6": {
+        "with" : [],
+        "action" : [
+            ["True"],
+            ["print 'nothing in test6 !'"]
+        ]
+    }
+}

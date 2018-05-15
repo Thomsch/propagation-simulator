@@ -1,0 +1,8 @@
+/**
+ * Définit les propriétés d'un terrain
+ */
+{
+    "Montagne" : { "color": "#4A4851" },
+    "Zone_Risque" : { "color": "#86B32D" },
+    "Zone_Sure" : { "color": "#C9F76F" }
+}

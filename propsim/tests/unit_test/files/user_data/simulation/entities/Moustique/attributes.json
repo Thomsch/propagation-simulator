@@ -1,0 +1,12 @@
+{
+    "_name" : "Mosquito",
+    "_plural_name" : "Mosquitoes",
+    "_color" : "#E50049", // rose
+    "infected_count" : 0,
+
+    // Paramètres pour le déplacement
+    "direction" : [0, 1],
+    "speed_progress" : [3, 1, 1, 1, 1, 2, 2],
+    "speed_id" : 0
+
+}

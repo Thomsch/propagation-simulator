@@ -1,0 +1,14 @@
+{
+    "entity1" : "Humain",
+    "entity2" : "Humain",
+    "interaction" : [
+        [
+            "random.random() < 0.25"
+        ],
+        [
+            "print id(humain1), 'infecte', id(humain2)",
+            "humain2._color = data.humain.color_infected",
+            "humain2._is_affected = True"
+        ]
+    ]
+}

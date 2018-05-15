@@ -1,0 +1,14 @@
+{
+	"entity1": "${interaction_entity1}",
+	"entity2": "${interaction_entity2}",
+	"interaction" : [
+        //TODO Set an activation condition
+        [
+            "True"
+        ],
+        //TODO Define some instruction(s) when interaction is performed
+        [
+            "pass"
+        ]
+	]
+}
