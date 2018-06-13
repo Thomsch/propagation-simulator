@@ -9,5 +9,5 @@ This is the group project for my last undergraduate course semester. The wonderf
 - _docs_ Contains the specifications, user manual, installation manual and project report (in french 🐸).
 - _images_ Contains the logo and a few examples.
 
-# Sampl
+# Sample
 ![game of life screenshot](images/sample3.png)
